@@ -101,12 +101,12 @@ git clone https://github.com/sebalp100/enumerables/
 
 To run the project, execute the following commands in your Ruby terminal:
 
-- Open your terminal and run irb on the root folder of the project
-- Run require 'my_list' command
-- Run list = MyList.new(1, 2, 3, 4) command to create a new list
-- Run list.all? {|e| e < 5} command to test with the all method
-- Run list.any? {|e| e == 2} command to test with the any method
-- Run list.filter {|e| e.even?} command to test with the filter method
+- Open your terminal and run `irb` on the root folder of the project
+- Run `require 'my_list' ` command
+- Run `list = MyList.new(1, 2, 3, 4)` command to create a new list
+- Run `list.all? {|e| e < 5}` command to test with the all method
+- Run `list.any? {|e| e == 2}` command to test with the any method
+- Run `list.filter {|e| e.even?}` command to test with the filter method
 - You can change the arguments in the methods to test different results
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
